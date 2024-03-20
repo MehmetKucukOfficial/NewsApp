@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.newsprojectpractice.R
 
 
-class FavouritesFragment : Fragment() {
+class SearchFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -16,7 +16,7 @@ class FavouritesFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_favourites, container, false)
+        return inflater.inflate(R.layout.fragment_search, container, false)
     }
 
 
